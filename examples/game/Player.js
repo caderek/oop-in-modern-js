@@ -155,5 +155,3 @@ const God = (name) => {
 };
 
 export { Player, Witch, Thief, God };
-
-/* Usage */
