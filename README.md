@@ -19,7 +19,7 @@ class Planet {
   #mass;
   #radius;
   #position = [0, 0];
-  rotation = 0;
+  #rotation = 0;
 
   constructor(mass, radius) {
     this.#mass = mass;
