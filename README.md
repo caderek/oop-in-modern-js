@@ -8,7 +8,7 @@ _Note: There is also an "old" way (old in a sense that is rarely used in new cod
 
 ## Classes
 
-Classes are a way to define objects' "blueprints" in a consistent, well structured way. They are fast, and **memory efficient**, as their methods are reused among their instances (which is not the case with factory functions). They also take care of all the complexity of raw constructor functions, and provide additional features, like ensuring proper instantiation, defining private members and extending built-in objects. They might be ore verbose that factory functions, but it's a trade-off - brevity not always mean readability. For me they are more readable, but I acknowledge that it's somewhat subjective.
+Classes are a way to define objects' "blueprints" in a consistent, well structured way. They are fast, and **memory efficient**, as their methods are reused among their instances (which is not the case with factory functions). They also take care of all the complexity of raw constructor functions, and provide additional features, like ensuring proper instantiation, defining private members and extending built-in objects. They might be more verbose that factory functions, but it's a trade-off - brevity not always mean readability. For me they are more readable, but I acknowledge that it's somewhat subjective.
 
 ### Syntax
 
