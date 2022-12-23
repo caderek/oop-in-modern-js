@@ -63,11 +63,11 @@ Besides, classes are not _just_ syntactic sugar. They have unique features, like
 
 > JS classes are not "real" classes, like in Java, Python, etc.
 
-That's an interesting one. There is no such thing as a one true definition of classes. Class is an abstract concept - a "blueprint" for creating new objects, and is not bound to the specific implementation. I some languages (like C++) the are a compile-time concept, and you cant define them in runtime. In other languages, like JS, Python or Ruby, you can define them in runtime. In sime languages classes are themselves objects, in others they are not. Some languages implement them via delegating / linking methods in other objects, some assemble them in other ways. In some languages they are immutable, in some you can modify them in runtime.
+That's an interesting one. There is no such thing as the one true definition of classes. Class is an abstract concept - a "blueprint" for creating new objects, and is not bound to the specific implementation. I some languages (like C++) they are a compile-time concept, and you cant define them in runtime. In other languages, like JS, Python or Ruby, you can define them in runtime. In some languages classes are themselves objects, in others they are not. Some languages implement them via delegating / linking methods in other objects, some assemble them in other ways. In some languages they are immutable, in some you can modify them in runtime.
 
-For example, if you look at Python classes, they work _very_ similar to their JS counterpart. Under the hood they are objects linking to other objects, just like in JS. But it would be hard to find a Python programmer, that says that Python classes are not "real".
+For example, if you look at Python classes, they work _very_ similar to their JS counterpart. Under the hood they are objects linking to other objects, just like in JS. But it would be hard to find a Python programmer that says that Python classes are not "real".
 
-I think this weird sentiment in JS world is caused by the fact, that while in other languages how the class works "under the hood" was always an **implementation detail**, in JS we had to assemble the similar concept manually - so there exist the myth that JS is somewhat special in the way that objects work (it kind of is, but so is every other language, and there is often more similarities than differences).
+I think this weird sentiment in JS world is caused by the fact, that while in other languages how the class works "under the hood" was always an **implementation detail**, in JS we had to assemble the similar concept manually - so there exists the myth that JS is somewhat special in the way that objects work (it kind of is, but so is every other language, and there are often more similarities than differences).
 
 So yeah, JS classes are just as real (or just as unreal) as Python, Ruby or Java classes.
 
