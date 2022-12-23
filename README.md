@@ -79,7 +79,7 @@ _Note: JS syntax for classes being similar to other languages is a good compromi
 
 > Classes hide what really goes "under the hood" (stated as a con)
 
-Yes, that's _the point of abstractions_ - to hide the complexity, and allow us to write more high-level code. To be fair, not every abstraction is good. Abstractions can be "leaky", i.e. they do not properly encapsulate all the underlying complexity - the work most of the time, but for some cases complexity crawls back (and the abstractions becomes more of a burden, than help). Luckily, that's not the case with classes, they are pretty solid, and if you're not dealing with legacy code, you can never have a need to reach for raw prototypes.
+Yes, that's _the point of abstractions_ - to hide the complexity, and allow us to write more high-level code. To be fair, not every abstraction is good. Abstractions can be "leaky", i.e. they do not properly encapsulate all the underlying complexity - they work most of the time, but for some cases complexity crawls back (and the abstractions becomes more of a burden, than help). Luckily, that's not the case with classes, they are pretty solid, and if you're not dealing with legacy code, you can never have a need to reach for raw prototypes.
 
 > `this` keyword is unreliable, you should avoid it
 
