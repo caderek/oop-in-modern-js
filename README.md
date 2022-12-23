@@ -18,6 +18,8 @@ Simple class example:
 class Planet {
   #mass;
   #radius;
+  #position = [0, 0];
+  rotation = 0;
 
   constructor(mass, radius) {
     this.#mass = mass;
@@ -32,11 +34,24 @@ class Planet {
     return this.#radius;
   }
 
-  move() {}
+  move(x, y) {
+    this.#position = [x, y];
+  }
 
-  rotate() {}
+  rotate(angle) {
+    this.#rotation = angle;
+  }
 }
 ```
+
+As you can see, we have a nice structure:
+
+- properties declarations (some with initial values),
+- constructor that initializes the object-specific properties,
+- accessor methods to expose some information,
+- list of methods that operate on object properties.
+
+I won't go into details here, for good overview of class syntax visit [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 ### Common misconceptions
 
@@ -81,5 +96,3 @@ Another **always** BS. While it is a good practice to _prefer composition over i
 > Object merging is an object composition
 
 That's I think is the biggest offender, nad frankly, embarrassing misconception that is unique to the JS community. Sadly, it is very prevalent. Composition in the context of OOP has very specific meaning. In short, composition is when objects **contain references to other objects**, not when multiple object are merged into one. If you merge objects, it is a form of _multiple inheritance_. Using the famous rule "favor composition over inheritance" by [Gang of Four](https://en.wikipedia.org/wiki/Design_Patterns), while promoting the exact opposite, is truly a peak of irony. Don't get me wrong, object merging is a legitimate technique, but it has nothing to do with object composition in the GoF sense.
-
-###
