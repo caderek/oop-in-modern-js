@@ -87,7 +87,7 @@ To be fair, not having to deal with `this` _is_ simpler, no question about it. _
 
 > You should always prefer factory functions over classes
 
-As a rule of thumb, if you hear someone saying that you should **always**, or **never** do something in programming, you can safely ignore them. Everything need context, it's no different in this case. While factory functions can be conceptually simpler, they are also less memory-efficient, and suffer (to a lesser degree) the same problem that the "pre-classes" abstractions did - there is multiple ways to write them, everyone seems to have their pet implementation.
+As a rule of thumb, if you hear someone saying that you should **always**, or **never** do something in programming, you can safely ignore them. Everything needs context, it's no different in this case. While factory functions can be conceptually simpler, they are also less memory-efficient, and suffer (to a lesser degree) the same problem that the "pre-classes" abstractions did - there are multiple ways to write them, everyone seems to have their pet implementation.
 
 > Inheritance is always bad
 
