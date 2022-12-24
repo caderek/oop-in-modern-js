@@ -68,15 +68,15 @@ class Player {
   }
 }
 
-const Witch = (name) => {
+const createWitch = (name) => {
   return new Player(name, [new FlightPower()], [new HealingPotion(3)]);
 };
 
-const Thief = (name) => {
+const createThief = (name) => {
   return new Player(name, [new InvisibilityPower()], [new HealingPotion(3)]);
 };
 
-const God = (name) => {
+const createGod = (name) => {
   return new Player(
     name,
     [new InvisibilityPower(), new FlightPower()],
@@ -85,4 +85,4 @@ const God = (name) => {
   );
 };
 
-export { Player, Witch, Thief, God };
+export { Player, createWitch, createThief, createGod };
