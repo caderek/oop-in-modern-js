@@ -96,7 +96,7 @@ class Player {
 }
 
 /*
-This part is not necessary, we can use Player class as-is,
+This part is not necessary, we can use the Player class as-is,
 but it's nice to have this type of factories to create
 different types of players easily.
 */
