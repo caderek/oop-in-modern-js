@@ -1,4 +1,4 @@
-import { Witch, Thief, God } from "./Player.js";
+import { Witch, Thief, God } from "./characters/Player.js";
 
 const p1 = Witch("Scarlet");
 const p2 = Thief("Arthur");
