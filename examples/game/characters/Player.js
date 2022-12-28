@@ -93,29 +93,28 @@ class Player {
       console.log(`${power.name} activated`);
     }
   }
+
+  /*
+  This part is not necessary, we can use the Player class as-is,
+  but it's nice to have this type of static methods as a shorthand
+  to create common types of players easily.
+  */
+  static createWitch(name) {
+    return new Player(name, [new FlightPower()], [new HealingPotion(3)]);
+  }
+
+  static createThief(name) {
+    return new Player(name, [new InvisibilityPower()], [new HealingPotion(3)]);
+  }
+
+  static createGod(name) {
+    return new Player(
+      name,
+      [new InvisibilityPower(), new FlightPower()],
+      [new HealingPotion(999)],
+      { health: 999 }
+    );
+  }
 }
 
-/*
-This part is not necessary, we can use the Player class as-is,
-but it's nice to have this type of factories to create
-different types of players easily.
-*/
-
-const createWitch = (name) => {
-  return new Player(name, [new FlightPower()], [new HealingPotion(3)]);
-};
-
-const createThief = (name) => {
-  return new Player(name, [new InvisibilityPower()], [new HealingPotion(3)]);
-};
-
-const createGod = (name) => {
-  return new Player(
-    name,
-    [new InvisibilityPower(), new FlightPower()],
-    [new HealingPotion(999)],
-    { health: 999 }
-  );
-};
-
-export { Player, createWitch, createThief, createGod };
+export default Player;

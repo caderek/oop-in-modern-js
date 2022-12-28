@@ -1,8 +1,8 @@
-import { createWitch, createThief, createGod } from "./characters/Player.js";
+import Player from "./characters/Player.js";
 
-const p1 = createWitch("Scarlet");
-const p2 = createThief("Arthur");
-const p3 = createGod("Seth");
+const p1 = Player.createWitch("Scarlet");
+const p2 = Player.createThief("Arthur");
+const p3 = Player.createGod("Seth");
 
 console.log(`${p1.name}'s powers: ${p1.powers}`);
 console.log(`${p2.name}'s powers: ${p2.powers}`);
