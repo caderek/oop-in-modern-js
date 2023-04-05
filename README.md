@@ -2,7 +2,7 @@
 
 ## Introduction
 
-There are many ways to create objects in JS, but if we are talking about creating multiple independent objects with similar properties and functionality, today the two main ways are factory functions and classes. They both have some pros and cons - but in many cases the can be used interchangeably - according to personal preference.
+There are many ways to create objects in JS, but if we are talking about creating multiple independent objects with similar properties and functionality, today the two main ways are factory functions and classes. They both have some pros and cons - but in many cases they can be used interchangeably - according to personal preference.
 
 _Note: There is also an "old" way (old in a sense that is rarely used in new code, but it's still a part of the language) - constructor functions. Another way would be constructing objects via `Object.create`. I will not focus on them in this writeup._
 
