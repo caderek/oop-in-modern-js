@@ -83,7 +83,7 @@ Yes, that's _the point of abstractions_ - to hide the complexity, and allow us t
 
 > `this` keyword is unreliable, you should avoid it
 
-To be fair, not having to deal with `this` _is_ simpler, no question about it. _But_, `this`, while having its quirks, is **well defined**, and you _have to_ understand how it works - there is a lot of code that relies on it (even in standard library). Also, using `this` is the only way to create memory-efficient objects (i.e. objects that delegate methods to their prototypes).
+To be fair, not having to deal with `this` _is_ simpler, no question about it. _But_, `this`, while having its quirks, is **well defined**, and you _have to_ understand how it works - there is a lot of code that relies on it (even in the standard library).
 
 > You should always prefer factory functions over classes
 
